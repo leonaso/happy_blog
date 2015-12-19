@@ -12,7 +12,7 @@
           <div class="article-meta-details">
             <small>Created by: <%= article.user.username if article.user %>,
                 <%= time_ago_in_words(article.created_at) %> ago,
-                last uddated: <%= time_ago_in_words(article.uddated_at) %>
+                last uddated: <%= time_ago_in_words(article.updated_at) %>
             </small>
           </div>  
         </div>
